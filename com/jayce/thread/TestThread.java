@@ -1,3 +1,5 @@
+package com.jayce.thread;
+
 public class TestThread {
     public static void main(String[] args) {
         RunnableDemo R1 = new RunnableDemo("线程A");
@@ -11,5 +13,6 @@ public class TestThread {
 
         ThreadDemo T2 = new ThreadDemo("线程D");
         T2.start();
+
     }
 }

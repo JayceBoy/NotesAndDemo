@@ -1,3 +1,5 @@
+package com.jayce.thread;
+
 public class RunnableDemo implements Runnable{
     private Thread t;
     private String threadName;

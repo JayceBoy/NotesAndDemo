@@ -1,3 +1,5 @@
+package com.jayce.thread;
+
 public class ThreadDemo extends Thread{
     private Thread thread;
     private String threadName;
